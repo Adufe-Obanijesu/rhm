@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
 import Messages from "./pages/Messages";
 import Programmes from "./pages/Programmes";
-import Writeups from "./pages/WriteUps";
+import Writeups from "./pages/Writeups";
 import AboutUs from "./pages/AboutUs";
 
 function App() {
