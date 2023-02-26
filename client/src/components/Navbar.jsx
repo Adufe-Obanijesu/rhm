@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`sticky w-full flex justify-center md:block ${toggleNavigation && 'bg-lightSecondary'} md:bg-white relative mt-2 md:mt-0`}>
+        <nav className={`sticky w-full flex justify-center ${toggleNavigation && 'bg-lightSecondary'} md:bg-white relative mt-2 md:mt-0`}>
             <div className={`md:hidden inline ${toggleNavigation && 'hidden'}`}>
                 <Link to="/"><img src="/logo.png" alt="logo" style={{height: "65px", width: "100%"}} /></Link>
             </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 
             </div>
 
-            <div className={`md:flex justify-between items-center py-6 lg:w-3/4 hidden md:block`}>
+            <div className={`md:flex justify-between items-center py-6 lg:w-3/4 hidden`}>
                 <div>
                     <ul className="md:flex">
                         <li className="navLinks transitionItem"><Link to="#">contact us</Link></li>
