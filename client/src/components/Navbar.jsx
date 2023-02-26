@@ -27,12 +27,12 @@ const Navbar = () => {
             <div className={`justify-between items-center py-6 lg:w-3/4 ${!toggleNavigation && 'hidden'} md:hidden`}>
                 <div>
                     <ul className="">
-                        <li className="navLinks transitionItem"><Link to="/">homepage</Link></li>
-                        <li className="navLinks transitionItem"><Link to="/programmes">programmes</Link></li>
-                        <li className="navLinks transitionItem"><Link to="/messages">messages</Link></li>
-                        <li className="navLinks transitionItem"><Link to="/writeups">write-ups</Link></li>
-                        <li className="navLinks transitionItem"><Link to="/about">about</Link></li>
-                        <li className="navLinks transitionItem"><Link to="#">contact us</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="/">homepage</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="/programmes">programmes</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="/messages">messages</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="/writeups">write-ups</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="/about">about</Link></li>
+                        <li className="navLinks transitionItem" onClick={() => setToggleNavigation(false)}><Link to="#">contact us</Link></li>
                     </ul>
                 </div>
                 
